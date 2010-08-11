@@ -54,6 +54,18 @@ class ImageDownload(object):
             return u''
 
 
+class ImagePreview(object):
+
+    def show(self):
+        try:
+            return self.context.data.showPreview(
+                self.request,
+                filename=self.context.__name__,
+                contentDisposition='inline')
+        except:
+            return u''
+
+
 class ImageViewView(object):
     interface.implements(IContentViewView)
     component.adapts(IImage, interface.Interface)

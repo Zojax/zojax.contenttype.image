@@ -66,6 +66,13 @@
        provides="zojax.content.type.interfaces.IContentView"
        permission="zope.View" />
 
+   <zojax:pagelet
+       for=".interfaces.IImage"
+       name="preview.html"
+       template="imagepreview.pt"
+       provides="zojax.content.type.interfaces.IContentView"
+       permission="zope.View" />
+
     <browser:defaultView
        name="view.html"
        for=".interfaces.IImage" />
@@ -76,6 +83,14 @@
        attribute="show"
        class=".imageviews.ImageDownload"
        permission="zope.View" />
+
+    <browser:page
+       for=".interfaces.IImage"
+       name="preview"
+       attribute="show"
+       class=".imageviews.ImagePreview"
+       permission="zope.View" />
+
 
     <adapter factory=".imageviews.ImageViewView" />
 
