@@ -96,8 +96,7 @@ View
     ...<h1 class="z-content-title">Test image</h1>...
       <span class="discreet">Name:</span>
       image
-      (<a href="http://localhost/space/documents/image">View</a>)
-      <br />
+      (<a href="http://localhost/space/documents/image">View</a>, <a href="http://localhost/space/documents/image/preview.html">Preview</a>)<br />
       <span class="discreet">Size:</span>
       ... KB<div>
          <br />
@@ -131,8 +130,7 @@ Edit
     ...<h1 class="z-content-title">New image</h1>...
       <span class="discreet">Name:</span>
       image
-      (<a href="http://localhost/space/documents/image">View</a>)
-      <br />
+      (<a href="http://localhost/space/documents/image">View</a>, <a href="http://localhost/space/documents/image/preview.html">Preview</a>)<br />
       <span class="discreet">Size:</span>
       ... KB<div>
         <br />
