@@ -1,4 +1,4 @@
-<tal:block i18n:domain="zojax.contenttypes" tal:define="url context/@@absolute_url">
+<tal:block i18n:domain="zojax.contenttype.image" tal:define="url context/@@absolute_url">
   <br />
   <span class="discreet" i18n:translate="">Name:</span>
   <tal:block content="context/__name__" />
