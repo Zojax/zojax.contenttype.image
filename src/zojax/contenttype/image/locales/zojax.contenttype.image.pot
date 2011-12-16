@@ -1,0 +1,79 @@
+##############################################################################
+#
+# Copyright (c) 2003-2004 Zope Corporation and Contributors.
+# All Rights Reserved.
+#
+# This software is subject to the provisions of the Zope Public License,
+# Version 2.1 (ZPL).  A copy of the ZPL should accompany this distribution.
+# THIS SOFTWARE IS PROVIDED "AS IS" AND ANY AND ALL EXPRESS OR IMPLIED
+# WARRANTIES ARE DISCLAIMED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+# WARRANTIES OF TITLE, MERCHANTABILITY, AGAINST INFRINGEMENT, AND FITNESS
+# FOR A PARTICULAR PURPOSE.
+#
+##############################################################################
+msgid ""
+msgstr ""
+"Project-Id-Version: Development/Unknown\n"
+"POT-Creation-Date: Sun Dec 11 10:52:47 2011\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Zope 3 Developers <zope3-dev@zope.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: zope/app/locales/extract.py\n"
+
+#: src/zojax/contenttype/image/configure.zcml:17
+msgid "Image"
+msgstr ""
+
+#: src/zojax/contenttype/image/configure.zcml:17
+msgid "An image uploaded to the site."
+msgstr ""
+
+#: src/zojax/contenttype/image/imagepreview.pt:3
+#: src/zojax/contenttype/image/imageview.pt:3
+msgid "Name:"
+msgstr ""
+
+#: src/zojax/contenttype/image/imagepreview.pt:5
+msgid "Download"
+msgstr ""
+
+#: src/zojax/contenttype/image/imagepreview.pt:6
+#: src/zojax/contenttype/image/imageview.pt:5
+msgid "Preview"
+msgstr ""
+
+#: src/zojax/contenttype/image/imageview.pt:5
+msgid "View"
+msgstr ""
+
+#: src/zojax/contenttype/image/imageview.pt:8
+msgid "Size:"
+msgstr ""
+
+#: src/zojax/contenttype/image/interfaces.py:26
+msgid "Title"
+msgstr ""
+
+#: src/zojax/contenttype/image/interfaces.py:27
+msgid "Image title."
+msgstr ""
+
+#: src/zojax/contenttype/image/interfaces.py:31
+msgid "Description"
+msgstr ""
+
+#: src/zojax/contenttype/image/interfaces.py:32
+msgid "A short summary of the image."
+msgstr ""
+
+#: src/zojax/contenttype/image/interfaces.py:36
+msgid "Data"
+msgstr ""
+
+#: src/zojax/contenttype/image/interfaces.py:37
+msgid "The actual content of the image."
+msgstr ""
+
