@@ -6,6 +6,7 @@ Image
     >>> from zope.testbrowser.testing import Browser
     >>> from zope.lifecycleevent import ObjectCreatedEvent
     >>> from zojax.content.space.content import ContentSpace
+    >>> from zope.lifecycleevent import ObjectCreatedEvent, ObjectModifiedEvent
 
     >>> root = getRootFolder()
     >>> space = ContentSpace(title=u'Space')
@@ -85,10 +86,11 @@ Check complex case for ie
     >>> actor.getControl('Publish').click()
     >>> actor.url
     'http://localhost/space/documents/%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B0.jpg/index.html'
+    >>> event.notify(ObjectModifiedEvent(root['space']['documents']['image'].data))
 
 View
 ----
-    >>> actor.open("http://localhost/space/documents/image/index.html")
+    >>> actor.open("http://localhost/space/documents/image/preview.html")
 
     >>> print actor.contents
     <!DOCTYPE html PUBLIC
