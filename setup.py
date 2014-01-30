@@ -55,11 +55,15 @@ setup(name = 'zojax.contenttype.image',
                           'zope.component',
                           'zope.interface',
                           'zope.size',
-                          'zojax.filefield',
                           'zojax.content.type',
+                          'zojax.content.documents',
+                          'zojax.content.revision',
                           'zojax.contenttypes',
+                          'zojax.richtext',
                           ],
-      extras_require = dict(test=['zojax.contenttypes [test]']),
+      extras_require = dict(test=['zope.app.zcmlfiles',
+                                  'zojax.contenttypes [test]']),
+
       include_package_data = True,
       zip_safe = False
       )
