@@ -62,6 +62,7 @@ setup(name = 'zojax.contenttype.image',
                           'zojax.richtext',
                           ],
       extras_require = dict(test=['zope.app.zcmlfiles',
+                                  'zc.catalog',
                                   'zojax.contenttypes [test]']),
 
       include_package_data = True,
